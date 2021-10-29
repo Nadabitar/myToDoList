@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.inside-list{
+    background: #314D4C;
+}
+ h1{
+     position: absolute;
+     top: 50%;
+    font-size: 30px;
+    font-weight: normal;
+    color: 	#314D4C;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-basis: 50%;
+}
+
+
+
+
+
+.content-item .text{
+    background-color: transparent;
+}
+.content-item .buttons{
+    background-color: transparent;
+    float: right;
+    margin-right: 30px;
+}
+
+.content-item .btn-save{
+    border:1px solid rgb(45, 207, 12);
+    color: rgb(45, 207, 12);
+    background-color: transparent;
+}
+
+.content-item .btn-Alter{
+    border:1px solid  rgb(240, 92, 7);
+    color:  rgb(240, 92, 7);
+    background-color: transparent;
+    
+}
+.content-item .btn-delete{
+    border:1px solid  rgb(240, 7, 7);
+    color:  rgb(240, 7, 7);
+    background-color: transparent;
+}
+
+.content-item  .text{
+    margin-left:30px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    letter-spacing: 1px;
+}
+.content-item  .date{
+    color: #aaaa;
+    background-color: transparent;
+    margin-left:40px;
+    letter-spacing: 2px;
+}
+.content-item  .line{
+    width:50%;
+    background: #aaaa;
+    opacity: 0.3;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
